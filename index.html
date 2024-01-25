@@ -39,7 +39,44 @@
 <body class="font-manpore">
 
     <header>
-        <nav>
+        <!-- Nav related styles -->
+        <nav class=" lg:mx-36 my-8">
+            <div class="navbar  bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li class="text-[#FF4240]"><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-black text-2xl lg:text-4xl font-bold">Hockey <span class="text-[#FF4240]">'</span>
+                        s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-[#FF4240]"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                </div>
+                <div class="navbar-end gap-4 ml-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a class="btn text-white bg-[#FF4240]">Get Ticket</a>
+                </div>
+            </div>
 
         </nav>
         <div class="grid justify-items-end">
@@ -439,7 +476,8 @@
     <footer class="footer ml-5 p-10 bg-black text-white">
         <div class=" lg:ml-36">
             <h3 class="text-3xl font-bold">Get In Touch</h3>
-            <p class="text-base">Dit amet consectetur. <br>Condimentum adipiscing aliquam turpis <br> placerat dolor. Purus urna
+            <p class="text-base">Dit amet consectetur. <br>Condimentum adipiscing aliquam turpis <br> placerat dolor.
+                Purus urna
                 in sit nullam proin. </p>
             <p><i class="fa-regular fa-envelope text-[#FF4240] p-2"></i> hockeys@support.com</p>
             <p><i class="fa-solid fa-phone text-[#FF4240] p-2"></i> (+62) 123-321-543</p>
